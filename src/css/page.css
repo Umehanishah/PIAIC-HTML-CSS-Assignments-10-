@@ -1,0 +1,417 @@
+body{
+    margin: 0;
+}
+.nav{
+    display: flex;
+    gap: 20em;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 5em;
+    font-size: large;
+    color:maroon;
+}
+.nav h1{
+    font-size: large;
+}
+.nav span{
+    color: black;
+}
+.nav ul{
+    display: flex;
+    gap: 5em;
+}
+.header{
+    margin: 5px;
+    background-color: maroon;
+    padding-top: 5em;
+    padding-bottom: 5em;
+    display: flex;
+}
+
+.header h1{
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+  
+}
+
+.header-content{
+    padding-left: 10em;
+}
+.header p{
+    color: white;
+    font-family:'Arial Narrow', Arial, sans-serif;
+    font-size:medium;
+    padding-top: 10px;
+    padding-right: 5em;
+    padding-bottom: 3em;
+}
+
+.header button{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    padding: 5px;
+    
+}
+.header-img{
+    padding-right: 10em;
+}
+
+/*2nd section*/
+
+
+.advantages{
+    margin: 5px;
+    background-color: rgb(255, 255, 255);
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+.advantages h1{
+    color: rgb(0, 0, 0);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.advantages p{
+    color: rgb(0, 0, 0);
+    font-family:'Arial Narrow', Arial, sans-serif;
+    font-size:medium;
+    padding-top: 10px;
+    padding-left: 5em;
+    padding-right: 5em;
+    text-align: center;
+}
+
+.advantages-img{
+    display: flex;
+    gap: 10px;
+    padding-left: 10em;
+}
+
+.img img{
+    background-color: rgb(234, 234, 234);
+    border-radius: 100%;
+    padding: 10px;
+    text-align: center;
+}
+
+.img h2{
+    font-size: medium;
+}
+
+.img span{
+    font-size: small;
+    color: gray;
+    text-align: center;
+}
+
+/*3rd section*/
+
+
+.about{
+    background-color: rgb(251, 237, 237);
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+.about h1{
+    color: rgb(0, 0, 0);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+    text-align: center;
+}
+
+.about span{
+    color: maroon;
+}
+
+.about-content{
+    display: flex;
+}
+.about p{
+    color: rgb(0, 0, 0);
+    font-family:'Arial Narrow', Arial, sans-serif;
+    font-size:medium;
+    padding-left: 5em;
+    padding-top: 5em;
+    padding-right: 5em;
+}
+
+.about-img{
+    color: rgb(0, 0, 0);
+    font-family:'Arial Narrow', Arial, sans-serif;
+    font-size:medium;
+    padding-left: 1em;
+    padding-top: 5em;
+    padding-right: 5em;
+}
+
+.about-content button{
+    background-color: maroon;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    margin-left: 5em;
+    margin-top: 3em;
+}
+
+/*3rd*/
+
+.services-content{
+    text-align: center;
+    padding-top: 5em;
+    padding-left: 5em;
+    padding-right: 5em;
+}
+
+.services-content h2{
+    font-size:x-large;
+}
+
+.services-content span{
+    color: maroon;
+}
+
+.services-content p{
+    padding-top: 2em;
+    color: gray;
+}
+
+.services-tags{
+    display: flex;
+    padding-bottom: 5em;
+    padding-top: 5em;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+.services-tags .tag{
+    background-color:  #fbeded;
+    gap: 10px;
+}
+
+.services-tags .tag h3{
+    text-align: center;
+}
+
+.services-tags .tag button{
+    text-align: center;
+    color: maroon;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+/*4th*/
+
+.portfolio-content{
+    text-align: center;
+    padding-top: 3em;
+    padding-left: 5em;
+    padding-right: 5em;
+}
+
+.portfolio-content h2{
+    font-size:x-large;
+}
+
+.portfolio-content span{
+    color: maroon;
+}
+
+.portfolio-content p{
+    padding-top: 2em;
+    color: gray;
+}
+
+.portfolio-img{
+    display: flex;
+    padding-top: 5em;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+.portfolio-img-2{
+    display: flex;
+    padding-bottom: 2em;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+
+
+/*6th*/
+
+.process-content{
+    text-align: center;
+    padding-top: 3em;
+    padding-left: 5em;
+    padding-right: 5em;
+}
+
+.process-content h2{
+    font-size:x-large;
+}
+
+.process-content span{
+    color: maroon;
+}
+
+.process-content p{
+    padding-top: 2em;
+    color: gray;
+}
+
+.process-img{
+    display: flex;
+    gap: 5em;
+    padding-top: 5em;
+    padding-left: 3em;
+    padding-bottom: 5em;
+}
+
+/*7th*/
+
+.people-content{
+    background-color: #fbeded;
+    text-align: center;
+    padding-top: 3em;
+    padding-left: 5em;
+    padding-right: 5em;
+}
+
+.people-content h2{
+    font-size:x-large;
+}
+
+.people-content span{
+    color: maroon;
+}
+
+.people-content p{
+    padding-top: 2em;
+    color: gray;
+}
+
+.people-img{
+    display: flex;
+    gap: 10em;
+    background-color: #fbeded;
+    padding-top: 5em;
+    padding-left: 3em;
+}
+
+.people-img .img{
+    display: flex;
+    gap: 20px;
+}
+
+/*8th*/
+
+.skills-content{
+   text-align: center;
+    padding-top: 3em;
+    padding-left: 5em;
+    padding-right: 5em;
+}
+
+.skills-content h2{
+    font-size:x-large;
+}
+
+.skills-content span{
+    color: maroon;
+}
+
+.skills-content p{
+    padding-top: 2em;
+    color: gray;
+}
+
+.skills-img{
+    display: flex;
+    gap: 10em;
+   padding-top: 5em;
+   padding-bottom: 5em;
+    padding-left: 10em;
+}
+
+
+/*9th*/
+
+.project-content{
+    background-color: maroon;
+    text-align: center;
+     padding-top: 3em;
+     padding-left: 5em;
+     padding-right: 5em;
+ }
+ 
+ .project-content h2{
+     font-size:x-large;
+     color: white;
+ }
+.project-content button{
+   background-color: white;
+   padding: 5px 30px;
+ }
+
+
+ .project-content p{
+     padding-top: 2em;
+     color: rgb(194, 193, 193);
+     padding-bottom: 5em;
+ }
+ 
+ 
+
+/*10th*/
+
+.contact-content{
+    text-align: center;
+     padding-top: 3em;
+     padding-left: 5em;
+     padding-right: 5em;
+ }
+ 
+ .contact-content h2{
+     font-size:x-large;
+ }
+ 
+ .contact-content p{
+     padding-top: 2em;
+     color: gray;
+ }
+ 
+/*11th section*/
+
+
+.footer{
+    margin: 5px;
+    background-color: maroon;
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+.footer-content{
+    display: flex;
+    gap: 5em;
+    padding-left: 5em;
+    line-height: 30px;
+}
+
+.content h2{
+    color: white;
+    font-size: medium;
+}
+
+.content span{
+    font-size: small;
+    color: rgb(227, 226, 226);
+    text-align: center;
+}
+
+.content p{
+    font-size: small;
+    color: rgb(245, 245, 245);
+}
